@@ -1,50 +1,61 @@
-# Welcome to your Expo app 👋
+Suraksha Setu - Verified SOS & Real-Time Emergency Response
+Suraksha Setu links folks in trouble with helpers or authorities through verified alerts, live location sharing, also quick action planning.
+It ensures help reaches the right person fast, no hold-ups. Yet flows easy whenever it’s required.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+💡 Problem
+During crises, tools often slow down, skip safeguards, or fail to connect. Since affected people find it hard to share info clearly, support either misunderstands or shows up late - wasting critical time.
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+🚀 Solution
+Suraksha Setu provides:
+ One-tap or voice-triggered SOS activation
+- Live location sharing with voice messages so people stay updated
+Messages still come through even when there’s no signal or data
+ Looked at by parents to prevent false alarms
+A dashboard that lets you handle drop-offs quick - spot their location live as they move around
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+🧠 Workflow
+1. User triggers SOS (button/voice)
+2. Site along with sound sent to system
+3. If offline → SMS fallback via Twilio
+4. Watcher looks at the alert
+5. Emergency crew gets real-time update about verified incident
+6. Nearest rescue worker notified → tracking begins
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+💼 Use Cases
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+ Instant SOS for women, students, elderly
+ 
+ Connects patients, those who help them, along with treatment centers 
+ 
+ Verified SOS for large-scale crises 
+ 
+ updates sent directly to authorities in real time
+ 
+ Runs on wearables or smart devices 
+ 
+ Promotes safety collaboration 
+ 
+ Tall offices need  Alerts that help avoid danger at job or school 
 
-## Get a fresh project
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+⚙ Tech Stack
+| Layer | Tech |
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+| Frontend | React / React Native |
 
-## Learn more
+| Backend | Node.js + Express |
 
-To learn more about developing your project with Expo, look at the following resources:
+| Database | MongoDB Atlas |
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+| Integrations | Twilio API, Google Maps |
 
-## Join the community
+| Hosting | Vercel |
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+“Because safety shouldn’t depend on chance — it should depend on connection.”
